@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+
+}
+.top-image{
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+h1{
+  padding: 20px 20px;
+}
+.list{
+  width: 840px;
+  margin: 50px auto;
+}
+.list-item{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+}
