@@ -1,0 +1,13 @@
+/* set viewport under 425px */
+@media screen and (max-width: 425px){
+  main {
+    width: 100%;
+  }
+  .main-content{
+    width: 90%;
+    margin: 0 20px 5%;
+  }
+  .main-content:last-child {
+    margin: 0 5%;
+  }
+}
