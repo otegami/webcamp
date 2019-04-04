@@ -1,0 +1,57 @@
+/* create reponsive css under 425px */
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  .social {
+    display: none;
+  }
+  .nav-list-item{
+    list-style: none;
+    display: block;
+    margin: 2% 20px;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  main{
+    width: 100%;
+    /* center div*/
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+  .blog{
+    width: 100%;
+    margin-right: 30px;
+  }
+  .blog-image{
+    width: 50%;
+    height: 180px;
+    float: left;
+  }
+  .blog-text{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 25px;
+  }
+  .category {
+    display: none;
+  }
+  .pagination {
+    padding-top: 5%;
+  }
+  .sidebar {
+    width: 100%;
+    margin-top: 15%;
+  }
+  .sidebar-contents {
+    padding-left: 2%;
+  }
+  .instagram-box {
+    float: left;
+    width: 48%;
+  }
+  .instagram-box: nth-child(odd){
+    margin-right: 2%;
+  }
+}
