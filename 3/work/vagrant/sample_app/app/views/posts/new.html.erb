@@ -1,0 +1,15 @@
+<h1>New Post</h1>
+<!-- create form -->
+<%= form_for(@post) do |f| %>
+    <h4>Title</h4>
+    <%= f.text_field :title %>
+
+    <h4>Content</h4>
+    <%= f.text_area :body %>
+
+    <!-- Add image to db -->
+    <h4>Image</h4>
+    <%= f.attachment_field :image %>
+
+    <%= f.submit 'Go' %>
+<% end %>

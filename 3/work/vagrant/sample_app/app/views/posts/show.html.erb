@@ -1,0 +1,8 @@
+<h2>Title</h2>
+<p><%= @post.title %></p>
+<h2>Content</h2>
+<p><%= @post.body %></p>
+<h2>Image</h2>
+<%= attachment_image_tag @post, :image, :fill, 300, 300, format: 'jpeg' %>
+<%= link_to 'Edit', edit_post_path(@post.id)%>
+<%= link_to 'Delete', destroy_post_path(@post.id), method: :delete, "data-confirm" => "really? Will you delete it?" %>
